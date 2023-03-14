@@ -1,5 +1,7 @@
 """
 https://github.com/neuml/txtai/blob/master/examples/33_Query_translation.ipynb
+python3 -m streamlit run  ~/query_search.py  ~/data/pubmedmodelquery/ jama_query_index.yml  --server.enableCORS false --server.enableXsrfProtection false
+
 Search a paperai index.
 Requires streamlit and lxml to be installed.
   pip install streamlit lxml
